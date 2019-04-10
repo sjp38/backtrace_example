@@ -9,5 +9,4 @@ for line in sys.stdin:
     addr = spltd[-1][1:-1]
     print spltd[0]
     cmd = "addr2line -e program %s" % addr
-    print cmd
     subprocess.call(cmd, shell=True, executable="/bin/bash")
