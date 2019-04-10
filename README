@@ -1,0 +1,13 @@
+backtrace_example
+=================
+
+This directory contains source code and scripts for c language program
+backtrace printing and analyzing.
+
+Just type `$ make run` and look at the source! ;)
+
+
+Author
+======
+
+SeongJae Park <sj38.park@gmail.com>
